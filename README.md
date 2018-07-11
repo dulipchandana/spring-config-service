@@ -42,6 +42,10 @@ Config Server
   eg : /master/myapp-prod.yml
   
   
+  access the default profile 
+   localhost:8888/config-client-app/default
+  
+  
   
  
  

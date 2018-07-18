@@ -44,7 +44,22 @@ Config Server
   
   access the default profile 
    localhost:8888/config-client-app/default
-  
+   
+   Bootstrapping with bootstrap.properties or bootstrap.yml
+   
+   specify the location of the config server 
+   
+  #bootstrap.properties
+   spring.application.name=<application_name>
+   
+   spring.cloud.config.uri=http://localhost:8888
+   
+   --if discovery first 
+   spring.cloud.config.discovery.enable=true
+   
+   
+   
+   
   
   
  

@@ -44,7 +44,32 @@ Config Server
   
   access the default profile 
    localhost:8888/config-client-app/default
-  
+   
+   Bootstrapping with bootstrap.properties or bootstrap.yml
+   
+   specify the location of the config server 
+   
+  #bootstrap.properties
+   spring.application.name=<application_name>
+   
+   spring.cloud.config.uri=http://localhost:8888
+   
+   --if discovery first 
+   spring.cloud.config.discovery.enable=true
+   
+   -- how to refresh the properties manualy ..
+   
+   POST localhost:8080/refresh
+   
+   in spring boot 1.5.15.BUILD-SNAPSHOT the refresh path is unothrized with default 
+   
+   management.security.enabled=false enabling the path 
+   
+   
+   --
+//auto refreshing with git repo properies 
+@RefreshScope
+   
   
   
  

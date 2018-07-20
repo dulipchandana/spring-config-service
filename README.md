@@ -69,7 +69,20 @@ Config Server
    --
 //auto refreshing with git repo properies 
 @RefreshScope
-   
+
+encripting a config server properties 
+application.properties
+
+my.datasource.username=unam
+my.datasource.password={cipher}JDJDJJYRVUFVVFF
+
+
+application.yml
+
+my:
+ datasource:
+  uasename: uname
+  password: '{cipher}IUIURIJRHHUH'
   
   
  

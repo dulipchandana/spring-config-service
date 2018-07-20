@@ -47,7 +47,7 @@ Config Server
    
    Bootstrapping with bootstrap.properties or bootstrap.yml
    
-   specify the location of the config server 
+   specify the location of the config server and startup configuration are located here 
    
   #bootstrap.properties
    spring.application.name=<application_name>

@@ -66,6 +66,10 @@ Config Server
    management.security.enabled=false enabling the path 
    
    
+   --
+//auto refreshing with git repo properies 
+@RefreshScope
+   
   
   
  
